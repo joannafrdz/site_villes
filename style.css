@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	background-color: #24252A;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+
+h2 {
+	font-size: 18px;
+	margin: 20px;
+}
+
+h3 {
+	font-size: 15px;
+	margin: 10px;
+
+}
+
+li, a, button {
+	font-weight: 500;
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+button {
+	padding: 6px 20px;
+	background-color: rgba(0, 136, 169, 1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: rgba(0, 136, 169, 0.8);
+}
+
+.btn {
+	margin: 20px;
+}
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	/* border: 2px solid #0088a9; */
+
+}
+
+.logo {
+	cursor: pointer;
+}
+
+.nav_links {
+	list-style: none;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	color: #0088a9;
+}
+
+
+main {
+	height: 100%;
+	padding: 10px 10%;
+}
+
+.list {
+	list-style: none;
+	padding-top: 10px;
+}
+
+.list li {
+	margin: 10px;
+	padding: 0px 20px;
+}
+
+.list li a {
+	transition: all 0.3s ease 0s;
+}
+.list li a:hover {
+	color: #0088a9;
+}
+
+/* Search form */
+
+.search-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input-fields-search {
+	display: flex;
+	height: 20hv;
+	width: 100wv;
+	flex-direction: row;
+}
+
+/* Login form ( https://www.youtube.com/watch?v=l_Z3N3etkS0 ) */
+
+.login-form {
+	max-width: 500px;
+	margin: 0 auto;
+	border: 2px solid #0088a9;
+	padding: 30px;
+	border-radius: 5px;
+	display: flex;
+}
+
+.input-fields {
+	display: flex;
+	flex-direction: column;
+}
+
+.input, .text {
+	border: 0;
+	border-bottom: 1px solid #0088a9;
+	border-left: 1px solid #0088a9;
+	padding: 10px 10px;
+	margin-top: 10px;
+	color: #0088a9;
+	text-transform: uppercase
+}
+
+.input-fields, .input, .text {
+	margin: 10px 10px;
+	width: 100%;
+}
+
+/* Edit form */
+
+.edit-form {
+	margin: 0 auto;
+	max-width: 400px;
+	border: 2px solid #0088a9;
+	padding: 30px;
+	border-radius: 5px;
+}
+
+/* Avertissement formlaire */
+
+.erreur {
+	margin: 10px;
+	color: tomato;
+	text-align: center;
+}
+
+.succes {
+	margin:10px;
+	color: #0088a9;
+	text-align: center;
+}
+
+/* Tableau données visiteurs */
+
+table {
+	/* padding: 30px; */
+	min-width: 400px;
+	margin: 0 auto;
+	border: 2px solid #0088a9;
+}
+
+th, td {
+	padding:10px;
+	text-align: center;
+}
+
+table, th, td {
+	border-collapse: collapse;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: top;
+	padding: 20px;
+}
+
+/* page ville */
+
+.description_ville {
+	display: flex;
+	margin: 0 auto;
+	padding: 40px;
+	min-width: 200px;
+	max-width: 600px;
+	min-height: 450px;
+	border: 2px solid #0088a9;
+}
+
+.description_ville, h2 {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.description_ville, p {
+	text-align: justify;
+}
+
+.previous {
+	border-bottom: 2px solid #0088a9;
+	padding: 10px;
+}
+
+.liste_pays {
+	padding: 10px;
+	border-bottom: 2px solid #0088a9;
+}
