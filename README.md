@@ -1,2 +1,6 @@
 # site_villes
-Réalisation d'un site en base de données dans le cadre de ma formation.
+Réalisation dans le cadre de ma formation.
+Initiation à PHP et bases de données
+
+
+(Attention, les codes ne sont pas du tout clean en terme de sécurité)
